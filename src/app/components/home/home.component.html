@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="card mx-auto mt-4 " style="width: 18rem;" *ngFor="let item of listaProdotti let i = index">
+        <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{item.description}}</p>
+
+            <a [routerLink]="['products/', item.id]" class="card-link">Dettagli</a>
+        </div>
+    </div>
+</div>

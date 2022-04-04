@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id":1,
+            "name": "Samsung Galaxy S22",
+            "price": 900,
+            "description" : "L'ultimo nato nella famiglia Galaxy"
+        },
+        {
+            "id":2,
+            "name": "Phone XL ",
+            "price": 1300,
+            "description" : "Uno dei migliori smartphone in commercio, con schermo ampio"
+        },
+        {
+            "id":3,
+            "name": "Phone Mini ",
+            "price": 650,
+            "description" : "Ha un'ottima fotocamera anche se piccolo "
+        },
+        {
+            "id":4,
+            "name": "Nokkia 6630",
+            "price": 50,
+            "description" : "Per fissare i chiodi al muro "
+        }
+    ]
+}
